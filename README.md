@@ -147,7 +147,7 @@ The registration process allows a person to be added to the system with:
 The registration flow:
 ´´´
 View → Controller → Service → DAO → Database
-´´´
+
 
 ---
 
