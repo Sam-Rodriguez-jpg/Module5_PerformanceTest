@@ -93,7 +93,7 @@ Planned attributes:
 ## Project Structure (Packages)
 The project follows a well-organized architecture with clear modular separation:
 
-´´´
+```
 src/
  ├── config/       # Database connection management (ConfigDB)
  ├── model/        # Entity classes (Person, User, Partner, Book)
@@ -102,7 +102,7 @@ src/
  ├── controller/   # Connects service layer with view
  ├── view/         # User interface using JOptionPane
  └── util/         # Validation and helper utilities
-´´´
+```
 
 ---
 
@@ -145,9 +145,9 @@ The registration process allows a person to be added to the system with:
 - Automatic role-based record creation (User or Partner).
 
 The registration flow:
-´´´
+```
 View → Controller → Service → DAO → Database
-
+```
 
 ---
 
